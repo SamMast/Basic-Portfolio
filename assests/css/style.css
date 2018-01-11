@@ -84,7 +84,10 @@ h3 {
 	float: left;
 	margin-right: 25px;
 	margin-left: 25px;
-	border-radius: 25px;}
+	border-radius: 25px;
+	border-style: dashed;
+	border-color: #4aaaa5;
+}
 
 #top {
 	background-color: #ffffff;
@@ -217,14 +220,10 @@ form {
 	margin: 25px 25px 50px 0px;
 }
 
-.text1,
-.text2,
-.text3,
-.text4,
-.text5 {
+.text {
 	text-align: center;
 	background-color: #4aaaa5;
-	width: 225px;
+	width: 200px;
 	padding: 10px 25px;
 	color: white;
 	border-style: none;
@@ -234,20 +233,48 @@ form {
 	right: 0px;
 }
 
-.box1,
-.box2,
-.box3,
-.box4,
-.box5 {
+.boxes {
 	background-color: #cccccc;
-	width: 275px;
+	width: 250px;
 	float:left;
 	margin: 25px;
 	height: 200px;
 	position: relative;
+	border-style: solid;
+	border-color: #cccccc;
 }
 
 .portfolio-image {
-	width: 275px;
+	width: 250px;
 	height: 200px;
+}
+
+.submit:hover {
+ background-color: #cccccc;
+ color: #4aaaa5;
+}
+
+.submit:focus {
+ background-color: #4aaaa5;
+ color: #cccccc;
+}
+
+.submit:active {
+ background-color: yellow;
+ color: #4aaaa5;
+}
+
+.text:hover {
+ background-color: white;
+ color: #4aaaa5;
+}
+
+.text:focus {
+ background-color: #4aaaa5;
+ color: #cccccc;
+}
+
+.text:active {
+ background-color: yellow;
+ color: #4aaaa5;
 }
