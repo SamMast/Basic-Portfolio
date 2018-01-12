@@ -44,6 +44,22 @@ nav {
 	margin-right: 300px;
 }
 
+
+.navmiddle {
+	border-right-style: solid;
+	border-left-style: solid; 
+	border-color: #cccccc;
+	padding: 0 10px;
+}
+
+.navleft {
+	padding: 0 5px 0 0;
+}
+
+.navright {
+	padding: 0 0 0 5px;
+}
+
 a {
 	color: #cccccc;
 	text-decoration: none;
@@ -197,10 +213,6 @@ form {
 	height: 250px;
 }
 
-.name::placeholder,
-.email::placeholder,
-.message::placeholder {
-}
 
 .submit {
 	background-color: #4aaaa5;
